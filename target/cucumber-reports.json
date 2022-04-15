@@ -1,0 +1,373 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Enter the URL https://www.saucedemo.com",
+        "description": "    Given: The user is on login page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-04-15T18:04:51.507Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19208943600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BASECLASS.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validating positive scenario",
+        "description": "",
+        "id": "here-we-will-automate-login-application-of-saucelab-webpage.;validating-positive-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1143729100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BASECLASS.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5459965400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 50
+                }
+              ],
+              "location": "PRODUCTSTEPS.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5445921400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LOGINSTEPS.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47732800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters the products webpage",
+            "match": {
+              "location": "LOGINSTEPS.user_enters_the_products_webpage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Enter the URL https://www.saucedemo.com",
+        "description": "    Given: The user is on login page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-04-15T18:05:22.904Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6526430600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BASECLASS.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Validating positive scenario",
+        "description": "",
+        "id": "here-we-will-automate-login-application-of-saucelab-webpage.;validating-positive-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1493793900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BASECLASS.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5259098700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters username \"problem_user\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PRODUCTSTEPS.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5208531600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LOGINSTEPS.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34811000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters the products webpage",
+            "match": {
+              "location": "LOGINSTEPS.user_enters_the_products_webpage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Enter the URL https://www.saucedemo.com",
+        "description": "    Given: The user is on login page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-04-15T18:05:41.432Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9512645000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BASECLASS.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Validating negative scenario",
+        "description": "",
+        "id": "here-we-will-automate-login-application-of-saucelab-webpage.;validating-negative-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1026608700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BASECLASS.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6326373700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters username \"user1\" and password \"abc@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user1\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"abc@123\"",
+                  "offset": 42
+                }
+              ],
+              "location": "PRODUCTSTEPS.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5411089000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LOGINSTEPS.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138694700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User finds an error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 28
+                }
+              ],
+              "location": "LOGINSTEPS.user_finds_an_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Enter the URL https://www.saucedemo.com",
+        "description": "    Given: The user is on login page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-04-15T18:06:03.855Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8468967900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BASECLASS.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Validating negative scenario",
+        "description": "",
+        "id": "here-we-will-automate-login-application-of-saucelab-webpage.;validating-negative-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1288120800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BASECLASS.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5242789000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters username \"user2\" and password \"xyz@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user2\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"xyz@123\"",
+                  "offset": 42
+                }
+              ],
+              "location": "PRODUCTSTEPS.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5822609100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LOGINSTEPS.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 391441300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User finds an error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 28
+                }
+              ],
+              "location": "LOGINSTEPS.user_finds_an_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Here we will automate Login application of Saucelab webpage.",
+    "description": "",
+    "id": "here-we-will-automate-login-application-of-saucelab-webpage.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FEATURE/Login.feature",
+    "tags": []
+  }
+]
